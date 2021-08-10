@@ -1,0 +1,112 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.header_top_close
+{ background: url("../images/icons-sprite.png") no-repeat; }
+    
+.header_top_close 
+{ 
+    display:inline-block;
+    width: 13px; height: 13px; 
+    background-position: -149px -73px; 
+}
+
+body{
+    
+}
+
+#wrap{
+    width:100%;
+    height:4106px;
+    background-color: aqua;
+}
+
+#header{
+    width:100%;
+    height:200px;
+    background-color: antiquewhite;
+}
+
+#header>#header_top{
+    width:100%;
+    height:145px;
+    background-color: burlywood;
+}
+
+#header_top>#top_first{
+    width:100%;
+    height:30px;
+    background-color:#E71471;
+    position: relative;
+}
+
+#header_top>#top_first>span:first-child{
+    font-size:12px;
+    font-weight: bold;
+    display:inline-block;
+    position:relative;
+    left:40%;
+    width:400px;
+    height:30px;
+    text-align: center;
+    color:#fff;
+
+    box-sizing:border-box;
+}
+
+#header_top>#top_first>span:nth-child(2){
+    display:inline-block;
+    position:absolute;
+    left:95%;
+}
+
+
+#header_top>#top_mid{
+    width:100%;
+    height:45px;
+    background-color:#070707;
+}
+
+#header_top>#top_bottom{
+    width:100%;
+    height:70px;
+    background-color:#070707;
+}
+
+#header>#header_bottom{
+    width:100%;
+    height:55px;
+    background-color: brown;
+}
+
+@media all and (min-width: 483px) and (max-width: 677px) {
+    #header_top>#top_first{
+        background-color:red;
+    }
+
+    #header_top>#top_first>span:first-child{
+        position: relative;
+        left:15%;
+    }
+
+}
+
+@media all and (min-width: 678px) and (max-width: 1903px) {
+    #header_top>#top_first{
+        background-color:green;
+    }
+
+
+}
